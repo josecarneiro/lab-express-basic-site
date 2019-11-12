@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: goldenrod;
+    margin: 20px 20% 30px 10%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+p {
+    margin-right: 20%;
+    margin-left: 10%;
+    text-justify: newspaper;
+    text-indent: 5%;
+}
+
+.navbar {
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: burlywood;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+.photos img {
+    width: 40%;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
