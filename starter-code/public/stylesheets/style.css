@@ -1,0 +1,18 @@
+body{
+    color: blue;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    border: 2px solid white;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.about-aside{
+    border: 2px solid white;
+    display: flex;
+    
+}
