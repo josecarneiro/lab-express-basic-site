@@ -15,7 +15,7 @@ img {
   width: auto;
   max-width: 500px;
   height: auto;
-  max-height: 500 / public/styles/main.csspx;
+  max-height: 500px;
   justify-content: space-around;
   text-align: center;
 }
