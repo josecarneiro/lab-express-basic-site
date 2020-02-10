@@ -1,0 +1,9 @@
+body {
+  font-family: sans-serif;
+  color: rgb(78, 78, 78);
+  background-color: blue;
+}
+
+p {
+  font-style: italic;
+}
