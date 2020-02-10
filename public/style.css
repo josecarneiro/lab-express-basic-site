@@ -18,27 +18,32 @@ h1 {
   width: 90%;
   margin: 0 auto;
   min-height: 8vh;
-  align-items: center;
 }
 
 .navbar ul {
-  display: flex;
   list-style: none;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .navbar a {
+  color: black;
   text-decoration: none;
-  align-items: center;
   font-size: 2rem;
 }
 
 /*Home*/
 .home {
+  display: flex;
+  min-height: 52vh;
+  background: url('./images/pista.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
-.header-home {
+.heading-home {
+  display: flex;
 }
 
 /*About*/
