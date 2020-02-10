@@ -1,13 +1,3 @@
-header {
-  display: flex;
-  justify-content: space-between;
-}
-nav ul {
-}
-nav ul li {
-  margin: 5%;
-}
-
 img {
   width: 50%;
 }

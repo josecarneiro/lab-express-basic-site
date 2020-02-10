@@ -4,59 +4,67 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Lorem Ipsum</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <link href="/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
-      <h1>About Lorem Ipsum</h1>
-      <nav>
-        <ul>
-          <li><a href="/"> Home </a></li>
-          <li><a href="/about"> About </a></li>
-          <li><a href="/work"> work </a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">Lorem Ipsum</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/about"> About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/work"> Work </a>
+            </li>
+          </ul>
+        </div>
+        <span class="navbar-text">
+          Lorem Ipsum work
+        </span>
       </nav>
     </header>
-    <div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat vitae leo in auctor.
-        Cras a neque tellus. Aenean sed aliquam nisl. Nam id lorem a lorem tincidunt accumsan.
-        Nullam sed metus egestas, auctor dui nec, vehicula neque. Fusce malesuada nunc ut ante
-        interdum dapibus. Vestibulum semper libero in nibh consectetur, id suscipit purus
-        ullamcorper. Aenean lacinia velit a ullamcorper bibendum.
-      </p>
-      <p>
-        Vivamus ut lorem lorem. Nunc sit amet ornare libero. Fusce molestie orci in sem placerat
-        faucibus. Sed fermentum pretium nulla, placerat venenatis libero sodales id. Duis nec nulla
-        blandit, fringilla lacus sed, consequat elit. Vestibulum sagittis ut purus sit amet laoreet.
-        Nam tempus velit eget nulla rhoncus hendrerit. Morbi rhoncus est at libero pellentesque
-        accumsan. Cras ultricies nibh ex, a aliquet est tempus pharetra. Phasellus non nulla vitae
-        velit hendrerit porta vitae vel orci. Duis et dictum velit. In et magna quam. Maecenas
-        finibus arcu ac lobortis auctor.
-      </p>
-      <p>
-        Vivamus eleifend ante vitae odio fermentum, at pharetra ex rutrum. Integer id lacus ut enim
-        imperdiet sollicitudin nec ut urna. Duis scelerisque bibendum justo in vestibulum.
-        Suspendisse condimentum ante vel dolor cursus sagittis. Integer lacus ante, viverra at
-        lectus vitae, laoreet iaculis felis. Vestibulum sit amet ex id ipsum rutrum laoreet at in
-        turpis. Ut tincidunt justo magna, quis scelerisque enim facilisis quis.
-      </p>
-      <p>
-        Ut nec maximus est. Curabitur volutpat, elit sit amet mattis placerat, leo nunc porta eros,
-        id luctus eros purus at turpis. Suspendisse potenti. Cras iaculis rutrum magna, at tincidunt
-        sapien faucibus at. Duis eu nibh fermentum, sodales enim a, auctor sapien. Proin tincidunt
-        feugiat dui, sit amet rhoncus orci interdum non. Vivamus ut justo ullamcorper, ultricies mi
-        sed, porttitor leo.
-      </p>
-      <p>
-        Nunc consequat nec lacus non interdum. Curabitur a lacus nec ligula tincidunt hendrerit. Nam
-        posuere placerat est, sit amet auctor nisl viverra nec. In at varius augue. Sed id efficitur
-        augue, et gravida quam. Suspendisse commodo posuere magna. Curabitur maximus velit sit amet
-        diam faucibus vestibulum. Aenean et est vulputate, tincidunt ante nec, sollicitudin leo.
-        Pellentesque eget dolor nulla. Praesent vel neque massa. Phasellus gravida lacus ut nisl
-        luctus, sed feugiat orci facilisis. Pellentesque habitant morbi tristique senectus et netus
-        et malesuada fames ac turpis egestas.
-      </p>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10 card mb-3">
+          <img
+            src="https://images.unsplash.com/photo-1459372537964-e38c57a5e86f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+            class="card-img-top"
+            alt="old harley"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Old harley</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat vitae leo in
+              auctor. Cras a neque tellus. Aenean sed aliquam nisl. Nam id lorem a lorem tincidunt
+              accumsan. Nullam sed metus egestas, auctor dui nec, vehicula neque. Fusce malesuada
+              nunc ut ante interdum dapibus. Vestibulum semper libero in nibh consectetur, id
+              suscipit purus ullamcorper. Aenean lacinia velit a ullamcorper bibendum.
+            </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
