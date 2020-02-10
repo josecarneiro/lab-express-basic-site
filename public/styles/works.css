@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin-top: 1em;
+}
+
+#mediums {
+  display: flex;
+  flex-direction: column;
+}
+
+.medium-card {
+  display: flex;
+}
+
+.medium-card figcaption {
+  align-self: flex-end;
+  margin-left: 1em;
+}
+
+.medium-card p {
+  align-self: center;
+}
+
+.medium-card img {
+  max-width: 500px;
+  align-self: center;
+}
+
+.left {
+  flex-grow: 1;
+  justify-self: end;
+}
