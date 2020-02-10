@@ -1,0 +1,64 @@
+body {
+  padding-top: 100px;
+  margin: 0;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: grey;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2em;
+}
+nav a:hover {
+  background: #ddd;
+  color: black;
+}
+h1 {
+  font-size: 3em;
+  font-family: sans-serif;
+}
+p {
+  font-size: 1.5em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+}
+img {
+  width: 200px;
+  align-self: center;
+}
+.gallery {
+  margin: 10px 50px;
+}
+.gallery img {
+  transition: 1s;
+  padding: 15px;
+  width: 200px;
+}
+.gallery img:hover {
+  filter: greyscale(100%);
+  transform: scale(1.1);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 300px;
+}
+.buyTheBook {
+  background-color: grey;
+}
