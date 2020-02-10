@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*Geral*/
+h1 {
+  font-size: 3rem;
+}
+
+.navbar {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  min-height: 8vh;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  align-items: center;
+  font-size: 2rem;
+}
+
+/*Home*/
+.home {
+}
+
+.header-home {
+}
+
+/*About*/
+.about {
+}
+
+/*Works*/ /*Gallery*/
