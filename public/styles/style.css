@@ -7,6 +7,14 @@ p {
   font-style: italic;
 }
 
+a {
+  color: black;
+}
+
 img {
   max-width: 170px;
+}
+
+nav div {
+  margin: 10px 0;
 }
