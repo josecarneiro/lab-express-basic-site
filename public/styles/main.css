@@ -1,0 +1,24 @@
+* {
+  font-family: sans-serif;
+}
+
+nav ul {
+  background-color: crimson;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: 1.5em;
+  list-style: none;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+body div {
+  background-image: url('/public/imgs/index-background.png');
+}
+
+img {
+  width: 30%;
+}
