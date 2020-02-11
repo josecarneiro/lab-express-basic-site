@@ -1,0 +1,20 @@
+html,
+body {
+  background-color: black;
+}
+
+#main-section {
+  background-image: url('./../images/Henry1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  color: white;
+  margin-right: auto;
+  margin-top: auto;
+  padding-left: 50px;
+}
