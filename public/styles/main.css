@@ -1,0 +1,94 @@
+/* * {
+  outline: 1px solid red;
+} */
+
+html,
+body {
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 10px;
+  font-size: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+#about {
+  font-size: 1.5em;
+  width: 500px;
+}
+
+#about_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+}
+
+#home_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+}
+
+#home_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home_section img {
+  width: 800px;
+}
+
+#error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+#movies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie_board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie_board img {
+  width: 300px;
+}
