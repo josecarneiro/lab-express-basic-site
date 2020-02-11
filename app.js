@@ -13,7 +13,7 @@ app.get('/work', (request, response) => {
   response.sendFile(__dirname + '/views/work.html');
 });
 app.get('*', (request, response) => {
-  response.send('Error 404');
+  response.sendFile(__dirname + '/views/error.html');
 });
 
 app.listen(3000);
