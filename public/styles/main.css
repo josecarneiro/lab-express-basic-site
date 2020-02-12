@@ -1,0 +1,131 @@
+/* * {
+  outline: 1px solid red;
+} */
+
+html,
+body {
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 10px;
+  font-size: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.nav_color {
+  color: #d7cfc2;
+}
+
+.nav_white {
+  color: white;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin-left: 20px;
+}
+
+#home_text {
+  position: absolute;
+  width: 400px;
+  margin-top: 150px;
+  margin-left: 70px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+#home_section p {
+  position: absolute;
+  font-size: 20px;
+}
+
+#home_section img {
+  width: 750px;
+  margin-top: 20px;
+}
+
+#about_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+}
+
+#about {
+  font-size: 1.5em;
+  width: 500px;
+}
+
+#error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+#movies {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.movie_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  min-width: 300px;
+  padding: 15px;
+}
+
+.movie_card img {
+  width: 300px;
+}
+
+.movie_card h3 {
+  width: 300px;
+  text-align: center;
+  line-height: 2.1em;
+  height: 40px;
+  margin-top: 0;
+  background-color: #d7cfc2;
+  color: white;
+}
+
+.gallery {
+  background-color: #d7cfc2;
+}
+
+#gallery {
+  width: 900px;
+}
