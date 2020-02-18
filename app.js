@@ -18,11 +18,11 @@ app.get('/about', (request, response) => {
 });
 
 app.get('/work', (request, response) => {
-  response.sendFile(__dirname + '/views/about.html');
+  response.sendFile(__dirname + '/views/work.html');
 });
 
 app.get('/photos', (request, response) => {
-  response.sendFile(__dirname + '/views/about.html');
+  response.sendFile(__dirname + '/views/photos.html');
 });
 
 app.get('*', (request, response) => {
